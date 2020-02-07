@@ -45,6 +45,9 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 /*                   UTILITIS                          */
 /*-----------------------------------------------------*/
 /* #Helper class */
+/*html{
+  scroll-behavior: smooth;
+}
 /* Typography */
 body {
   font-family: "Lato", sans-serif;
@@ -3293,20 +3296,15 @@ ul.list-reset {
   font-size: 15px;
 }
 
-.card-service:hover .card-figure .service-icon {
-  background: #222222;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
 
 .card-service:hover .card-figure .service-icon .fa {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+
   color: #fff537;
+}
+
+.service-icon:hover {
+  opacity: 1.0;
+  box-shadow: none;
 }
 
 .card-resume .card-figure {
@@ -3685,7 +3683,7 @@ ul.list-reset {
 }
 
 .section-intro .intro-name {
-  font-size: 60px;
+  font-size: 90px;
   font-family: "Poppins", sans-serif;
   color: #333333;
   font-weight: 700;
