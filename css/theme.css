@@ -4412,6 +4412,9 @@ ul.list-reset {
   color: #666666;
   font-size: 15px;
 }
+.fuente-size {
+  font-size: 12px !important;
+}
 
 .post-project .project-aside .project-aside-list {
   padding-left: 0;
