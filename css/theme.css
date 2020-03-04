@@ -3296,12 +3296,6 @@ ul.list-reset {
   font-size: 15px;
 }
 
-
-.card-service:hover .card-figure .service-icon .fa {
-
-  color: #fff537;
-}
-
 .service-icon:hover {
   opacity: 1.0;
   box-shadow: none;
